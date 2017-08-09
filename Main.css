@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:#323232;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+#object1{
+    position: absolute;
+    top:200;
+    left: 700;
+    opacity: 0.5;
+    -webkit-filter:blur(4px);
+    transform: rotate(20deg);
+}
+#object2{
+    position: absolute;
+    top:20;
+    left: -50;
+}
+#object3{
+    position: absolute;
+    left: 950;
+    top:200;
+    opacity: 0.3;
+    -webkit-filter:blur(3px);
+    transform: rotate(-20deg);
+}
+#layer{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+#msg{
+    font-family: arial;
+    font-size: 70px;
+    color:#FAFAFA;
+    position: absolute;
+    top:50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    line-height: 60px;
+    border-left: 2px solid #FAFAFA;
+    padding-left: 10px;
+    padding-top:5px;
+}
+#zero{
+    font-size: 40px;
+    letter-spacing: 31px;
+}
