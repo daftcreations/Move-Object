@@ -1,2 +1,2 @@
 # Move-Object
-//this is a Move-Object project in css
+//this is a simple creative and interactive webpage where it responds to the movements of our computer mouse.
